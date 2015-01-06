@@ -1,0 +1,691 @@
+strict graph {
+	graph [bb="0,0,1268,2534",
+		fontname=ArialMT,
+		fontsize=12,
+		rankdir=LR,
+		ranksep=0.3,
+		ratio=auto
+	];
+	node [label="\N"];
+	subgraph "cluster 0" {
+		graph [bb="0,0,100,550",
+			color=black,
+			style=dotted
+		];
+		"slice 1 topic 1"		 [height=2.0556,
+			label="people
+think
+news
+thing
+bbc
+google
+daily
+big
+cent
+tv
+",
+			pos="50,468",
+			shape=box,
+			width=0.75144];
+		"slice 1 topic 2"		 [height=2.0556,
+			label="snowden
+hong
+kong
+china
+government
+edward
+jan
+chinese
+extradition
+country
+",
+			pos="50,302",
+			shape=box,
+			width=1.1528];
+		"slice 1 topic 3"		 [height=2.0556,
+			label="nsa
+snowden
+government
+intelligence
+surveillance
+security
+datum
+program
+guardian
+agency
+",
+			pos="50,136",
+			shape=box,
+			width=1.1667];
+		"2013/06/09"		 [fontsize=14,
+			height=0.5,
+			pos="50,26",
+			shape=plaintext,
+			width=1.1111];
+	}
+	subgraph "cluster 2" {
+		graph [bb="216,0,316,550",
+			color=black,
+			style=dotted
+		];
+		"slice 3 topic 1"		 [height=2.0556,
+			label="nsa
+government
+surveillance
+court
+intelligence
+public
+record
+national
+program
+snowden
+",
+			pos="266,468",
+			shape=box,
+			width=1.1667];
+		"slice 3 topic 2"		 [height=2.0556,
+			label="news
+change
+cent
+bbc
+make
+year
+show
+jan
+world
+day
+",
+			pos="266,302",
+			shape=box,
+			width=0.77778];
+		"slice 3 topic 3"		 [height=2.0556,
+			label="snowden
+asylum
+russia
+rights
+human
+country
+airport
+offer
+government
+president
+",
+			pos="266,136",
+			shape=box,
+			width=1.1528];
+		"2013/07/06"		 [fontsize=14,
+			height=0.5,
+			pos="266,26",
+			shape=plaintext,
+			width=1.1111];
+	}
+	subgraph "cluster 5" {
+		graph [bb="540,0,640,550",
+			color=black,
+			style=dotted
+		];
+		"slice 6 topic 1"		 [height=2.0556,
+			label="putin
+obama
+syria
+world
+year
+people
+president
+russia
+state
+military
+",
+			pos="590,468",
+			shape=box,
+			width=0.93496];
+		"slice 6 topic 2"		 [height=2.0556,
+			label="nsa
+security
+government
+intelligence
+agency
+snowden
+datum
+company
+surveillance
+make
+",
+			pos="590,302",
+			shape=box,
+			width=1.1667];
+		"slice 6 topic 3"		 [height=2.0556,
+			label="court
+film
+assange
+act
+party
+miranda
+guardian
+journalist
+record
+think
+",
+			pos="590,136",
+			shape=box,
+			width=0.95833];
+		"2013/09/01"		 [fontsize=14,
+			height=0.5,
+			pos="590,26",
+			shape=plaintext,
+			width=1.1111];
+	}
+	subgraph "cluster 3" {
+		graph [bb="324,0,424,550",
+			color=black,
+			style=dotted
+		];
+		"slice 4 topic 1"		 [height=2.0556,
+			label="manning
+change
+world
+year
+people
+news
+life
+military
+man
+video
+",
+			pos="374,468",
+			shape=box,
+			width=0.90278];
+		"slice 4 topic 2"		 [height=2.0556,
+			label="snowden
+nsa
+surveillance
+obama
+program
+intelligence
+house
+government
+court
+russia
+",
+			pos="374,302",
+			shape=box,
+			width=1.1667];
+		"slice 4 topic 3"		 [height=2.0556,
+			label="gchq
+nsa
+agency
+company
+year
+uk
+internet
+government
+document
+work
+",
+			pos="374,136",
+			shape=box,
+			width=1.1528];
+		"2013/07/24"		 [fontsize=14,
+			height=0.5,
+			pos="374,26",
+			shape=plaintext,
+			width=1.1111];
+	}
+	subgraph "cluster 4" {
+		graph [bb="432,0,532,550",
+			color=black,
+			style=dotted
+		];
+		"slice 5 topic 1"		 [height=2.0556,
+			label="nsa
+intelligence
+government
+surveillance
+snowden
+information
+agency
+security
+court
+program
+",
+			pos="482,468",
+			shape=box,
+			width=1.1667];
+		"slice 5 topic 2"		 [height=2.0556,
+			label="party
+manning
+sentence
+wikileaks
+year
+preference
+council
+make
+assange
+military
+",
+			pos="482,302",
+			shape=box,
+			width=1.0424];
+		"slice 5 topic 3"		 [height=2.0556,
+			label="miranda
+guardian
+police
+government
+journalist
+question
+terrorism
+act
+snowden
+greenwald
+",
+			pos="482,136",
+			shape=box,
+			width=1.1528];
+		"2013/08/10"		 [fontsize=14,
+			height=0.5,
+			pos="482,26",
+			shape=plaintext,
+			width=1.1111];
+	}
+	subgraph "cluster 1" {
+		graph [bb="108,0,208,550",
+			color=black,
+			style=dotted
+		];
+		"slice 2 topic 1"		 [height=2.0556,
+			label="intelligence
+nsa
+government
+surveillance
+security
+agency
+information
+public
+datum
+eu
+",
+			pos="158,468",
+			shape=box,
+			width=1.1667];
+		"slice 2 topic 2"		 [height=2.0556,
+			label="snowden
+country
+government
+kong
+hong
+asylum
+ecuador
+president
+request
+moscow
+",
+			pos="158,302",
+			shape=box,
+			width=1.1528];
+		"slice 2 topic 3"		 [height=2.0556,
+			label="year
+people
+cent
+make
+time
+find
+police
+day
+thing
+life
+",
+			pos="158,136",
+			shape=box,
+			width=0.75];
+		"2013/06/23"		 [fontsize=14,
+			height=0.5,
+			pos="158,26",
+			shape=plaintext,
+			width=1.1111];
+	}
+	"slice 1 topic 3" -- "slice 2 topic 1"	 [dir=forward,
+		pos="e,116.19,406.03 91.813,197.97 95.06,204.87 97.89,211.95 100,219 121.17,289.76 86.827,314.24 108,385 109.15,388.86 110.52,392.72 \
+112.06,396.56"];
+	"2013/06/09" -- "2013/06/23"	 [dir=forward,
+		pos="e,118.14,26 89.869,26 95.77,26 101.93,26 108.02,26"];
+	"slice 3 topic 1" -- "slice 4 topic 2"	 [dir=forward,
+		pos="e,332.25,365.81 307.68,404.29 313.91,394.54 320.38,384.4 326.72,374.47"];
+	"2013/07/06" -- "2013/07/24"	 [dir=forward,
+		pos="e,334.14,26 305.87,26 311.77,26 317.93,26 324.02,26"];
+	"slice 7 topic 1"	 [height=2.0556,
+		label="nsa
+datum
+security
+intelligence
+surveillance
+snowden
+agency
+government
+people
+make
+",
+		pos="696,302",
+		shape=box,
+		width=1.1667];
+	"slice 6 topic 2" -- "slice 7 topic 1"	 [dir=forward,
+		pos="e,654.31,302 631.81,302 635.85,302 639.99,302 644.12,302"];
+	"2013/09/22"	 [fontsize=14,
+		height=0.5,
+		pos="696,26",
+		shape=plaintext,
+		width=1.1111];
+	"2013/09/01" -- "2013/09/22"	 [dir=forward,
+		pos="e,656.11,26 630.02,26 635.22,26 640.6,26 645.94,26"];
+	"slice 4 topic 2" -- "slice 5 topic 1"	 [dir=forward,
+		pos="e,440.25,404.19 415.68,365.71 421.91,375.46 428.38,385.6 434.72,395.53"];
+	"2013/07/24" -- "2013/08/10"	 [dir=forward,
+		pos="e,442.14,26 413.87,26 419.77,26 425.93,26 432.02,26"];
+	"slice 5 topic 1" -- "slice 6 topic 2"	 [dir=forward,
+		pos="e,548.25,365.81 523.68,404.29 529.91,394.54 536.38,384.4 542.72,374.47"];
+	"2013/08/10" -- "2013/09/01"	 [dir=forward,
+		pos="e,550.14,26 521.87,26 527.77,26 533.93,26 540.02,26"];
+	"slice 2 topic 1" -- "slice 3 topic 1"	 [dir=forward,
+		pos="e,224.25,468 199.68,468 204.34,468 209.13,468 213.9,468"];
+	"2013/06/23" -- "2013/07/06"	 [dir=forward,
+		pos="e,226.14,26 197.87,26 203.77,26 209.93,26 216.02,26"];
+	"slice 8 topic 3"	 [height=2.0556,
+		label="security
+guardian
+snowden
+intelligence
+public
+agency
+surveillance
+nsa
+government
+national
+",
+		pos="802,302",
+		shape=box,
+		width=1.1667];
+	"slice 7 topic 1" -- "slice 8 topic 3"	 [dir=forward,
+		pos="e,760.31,302 737.81,302 741.85,302 745.99,302 750.12,302"];
+	"2013/10/09"	 [fontsize=14,
+		height=0.5,
+		pos="802,26",
+		shape=plaintext,
+		width=1.1111];
+	"2013/09/22" -- "2013/10/09"	 [dir=forward,
+		pos="e,762.11,26 736.02,26 741.22,26 746.6,26 751.94,26"];
+	"slice 9 topic 3"	 [height=2.0556,
+		label="nsa
+intelligence
+agency
+snowden
+security
+surveillance
+report
+committee
+spy
+datum
+",
+		pos="908,302",
+		shape=box,
+		width=1.1667];
+	"slice 8 topic 3" -- "slice 9 topic 3"	 [dir=forward,
+		pos="e,866.31,302 843.81,302 847.85,302 851.99,302 856.12,302"];
+	"2013/10/27"	 [fontsize=14,
+		height=0.5,
+		pos="908,26",
+		shape=plaintext,
+		width=1.1111];
+	"2013/10/09" -- "2013/10/27"	 [dir=forward,
+		pos="e,868.11,26 842.02,26 847.22,26 852.6,26 857.94,26"];
+	"slice 10 topic 3"	 [height=2.0556,
+		label="nsa
+security
+snowden
+surveillance
+agency
+intelligence
+guardian
+datum
+government
+information
+",
+		pos="1014,302",
+		shape=box,
+		width=1.1667];
+	"slice 9 topic 3" -- "slice 10 topic 3"	 [dir=forward,
+		pos="e,972.31,302 949.81,302 953.85,302 957.99,302 962.12,302"];
+	"slice 11 topic 1"	 [height=2.0556,
+		label="nsa
+surveillance
+datum
+snowden
+government
+agency
+intelligence
+report
+security
+phone
+",
+		pos="1120,302",
+		shape=box,
+		width=1.1667];
+	"slice 10 topic 3" -- "slice 11 topic 1"	 [dir=forward,
+		pos="e,1078.3,302 1055.8,302 1059.9,302 1064,302 1068.1,302"];
+	"slice 7 topic 2"	 [height=2.0556,
+		label="week
+tv
+video
+advertising
+show
+york
+mail
+daily
+sex
+sep
+",
+		pos="50,634",
+		shape=box,
+		width=1.0862];
+	"slice 7 topic 3"	 [height=2.0556,
+		label="guardian
+world
+drone
+year
+road
+london
+war
+silk
+cent
+book
+",
+		pos="50,800",
+		shape=box,
+		width=0.90278];
+	"slice 8 topic 1"	 [height=2.0556,
+		label="bbc
+guardian
+press
+news
+journalism
+media
+jan
+world
+year
+story
+",
+		pos="50,966",
+		shape=box,
+		width=1.0556];
+	"slice 8 topic 2"	 [height=2.0556,
+		label="government
+court
+nsa
+datum
+key
+company
+snowden
+service
+lavabit
+china
+",
+		pos="50,1132",
+		shape=box,
+		width=1.1528];
+	"slice 12 topic 2"	 [height=2.0556,
+		label="nsa
+snowden
+surveillance
+government
+security
+intelligence
+datum
+agency
+phone
+obama
+",
+		pos="1226,302",
+		shape=box,
+		width=1.1667];
+	"slice 11 topic 1" -- "slice 12 topic 2"	 [dir=forward,
+		pos="e,1184.3,302 1161.8,302 1165.9,302 1170,302 1174.1,302"];
+	"slice 9 topic 1"	 [height=2.0556,
+		label="bbc
+trial
+press
+tv
+charter
+day
+daily
+twitter
+david
+reed
+",
+		pos="50,1298",
+		shape=box,
+		width=0.76389];
+	"slice 9 topic 2"	 [height=2.0556,
+		label="guardian
+government
+uk
+freedom
+state
+people
+human
+internet
+david
+journalism
+",
+		pos="50,1464",
+		shape=box,
+		width=1.1528];
+	"slice 10 topic 1"	 [height=2.0556,
+		label="australia
+indonesia
+minister
+australian
+president
+abbott
+government
+spy
+intelligence
+indonesian
+",
+		pos="50,1630",
+		shape=box,
+		width=1.1528];
+	"slice 10 topic 2"	 [height=2.0556,
+		label="people
+media
+make
+journalism
+journalist
+world
+press
+year
+news
+public
+",
+		pos="50,1796",
+		shape=box,
+		width=1.0556];
+	"slice 11 topic 2"	 [height=2.0556,
+		label="guardian
+intelligence
+security
+committee
+snowden
+agency
+government
+gchq
+australia
+public
+",
+		pos="50,1962",
+		shape=box,
+		width=1.1528];
+	"slice 11 topic 3"	 [height=2.0556,
+		label="year
+time
+people
+make
+russia
+putin
+snowden
+show
+photograph
+president
+",
+		pos="50,2128",
+		shape=box,
+		width=1.1111];
+	"slice 12 topic 1"	 [height=2.0556,
+		label="year
+day
+cent
+christmas
+story
+bbc
+show
+today
+man
+photograph
+",
+		pos="50,2294",
+		shape=box,
+		width=1.1111];
+	"slice 12 topic 3"	 [height=2.0556,
+		label="year
+world
+people
+make
+state
+big
+datum
+company
+think
+google
+",
+		pos="50,2460",
+		shape=box,
+		width=0.93496];
+	"2013/11/09"	 [fontsize=14,
+		height=0.5,
+		pos="1014,26",
+		shape=plaintext,
+		width=1.1009];
+	"2013/10/27" -- "2013/11/09"	 [dir=forward,
+		pos="e,974.11,26 948.02,26 953.22,26 958.6,26 963.94,26"];
+	"2013/12/02"	 [fontsize=14,
+		height=0.5,
+		pos="1120,26",
+		shape=plaintext,
+		width=1.1111];
+	"2013/11/09" -- "2013/12/02"	 [dir=forward,
+		pos="e,1079.9,26 1053.7,26 1058.9,26 1064.3,26 1069.7,26"];
+	"2013/12/21"	 [fontsize=14,
+		height=0.5,
+		pos="1226,26",
+		shape=plaintext,
+		width=1.1111];
+	"2013/12/02" -- "2013/12/21"	 [dir=forward,
+		pos="e,1186.1,26 1160,26 1165.2,26 1170.6,26 1175.9,26"];
+}
