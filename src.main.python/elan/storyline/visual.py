@@ -2,7 +2,6 @@ import sys
 import numpy
 import random
 from sets import Set
-from time import time
 
 OBJECTIVE_SLOPE = 1.5
 SLOTS = 50
@@ -135,7 +134,7 @@ class SlotBaseLayout:
 
     def __init__(self, slot_count):
         self.slots = [[] for i in range(slot_count)]
-        # Key: InteractionSession, Value: SessionLayout
+        # Key: Session, Value: SessionLayout
         self.sessions_layout = dict()
         return
 
@@ -171,7 +170,7 @@ class Character:
         return self.character_id
 
 
-class InteractionSession:
+class Session:
 
     def __init__(self, id_number, start_time, end_time = -1, name = '', location=-1):
         self.name = name
@@ -300,12 +299,12 @@ def loadInteractionSessions(iflnm):
             location = -1
         ifl.readline()
         members = [int(i) for i in members_str]
-        new_is = InteractionSession(id_number, start, end, name, location)
+        new_is = Session(id_number, start, end, name, location)
         new_is.addMembers(members)
         interaction_session_ary.append(new_is)
 
     ifl.close()
-
+    
     return (time_count, node_count, node_index_dict, location_index_dict, interaction_session_ary)
 
 
@@ -846,7 +845,6 @@ def evaluateLayout(layout, time_steps):
                 except:
                     # Either i or j is not in the time steps
                     pass
-    print crossovers
     
     # Count visualization space.
     screen_height = 0
